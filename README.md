@@ -89,11 +89,11 @@ The balanaced random forest classifier and easy ensemble AdaBoost classifier pro
 
 #### Top Features for Balanced Random Forest Classifier
 
-![Balanced Random Forest Classifier](Images/balancedrandomforest_feature.jpg)
+![Balanced Random Forest Classifier](Images/balancedrandomforest_feature.JPG)
 
 #### Top Features for Easy Ensemble Classifier
 
-![Easy Ensemble Classifier](Images/easyensemble_feature.jpg)
+![Easy Ensemble Classifier](Images/easyensemble_feature.JPG)
 - - -
 
 ### Hints and Considerations

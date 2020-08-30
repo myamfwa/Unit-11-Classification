@@ -1,8 +1,8 @@
-# Risky Business
+# Risky Business - Classification Homework Assignment
 
 ![Credit Risk](Images/credit-risk.jpg)
 
-## Background
+## Assignment
 
 Mortgages, student and auto loans, and debt consolidation are just a few examples of credit and loans that people seek online. Peer-to-peer lending services such as Loans Canada and Mogo let investors loan people money without using a bank. However, because investors always want to mitigate risk, a client has asked that you help them predict credit risk with machine learning techniques.
 
@@ -28,9 +28,9 @@ Resample the LendingClub data
 ### Objective:
 Build and evaluate logistic regression classifiers using the resampled data.
 
-### Resampling
+### Resampling Notebook
 
-### Objectives:
+#### Objectives:
 
 1. Oversample the data using the `Naive Random Oversampler` and `SMOTE` algorithms.
 
@@ -49,7 +49,7 @@ For each of the above:
 4. Print the `imbalanced classification report` from `imblearn.metrics`.
 
 
-### Conclusions
+#### Conclusions
 
 * Which model had the best balanced accuracy score?
 
@@ -59,11 +59,11 @@ For each of the above:
 >
 * Which model had the best geometric mean score?
 
-#### Ensemble Learning
+### Ensemble Learning
 
-In this section, you will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. You will use the `balanced random forest classifier` and the `easy ensemble AdaBoost classifier`.
+In this section, I have trained and complated two different ensemble classifiers to predict loan risk and evaluate each model. I used the `balanced random forest classifier` and the `easy ensemble AdaBoost classifier`.
 
-Complete the following steps for each model:
+Completed the following steps for each model:
 
 1. Train the model using the quarterly data from LendingClub provided in the `Resource` folder.
 
@@ -75,8 +75,9 @@ Complete the following steps for each model:
 
 5. For the balanced random forest classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score.
 
+#### Conclusions
 
-Use the above to answer the following questions:
+The balanaced random forest classifier and easy ensemble AdaBoost classifier provided results that were very similar with AdaBoost scoring marginally better. 
 
 * Which model had the best balanced accuracy score?
 
@@ -86,6 +87,13 @@ Use the above to answer the following questions:
 
 * What are the top three features?
 
+#### Top Features for Balanced Random Forest Classifier
+
+![Balanced Random Forest Classifier](Images/balancedrandomforest_feature.JPG)
+
+#### Top Features for Easy Ensemble Classifier
+
+![Easy Ensemble Classifier](Images/easyensemble_feature.JPG)
 - - -
 
 ### Hints and Considerations
@@ -99,12 +107,6 @@ For the ensemble learners, use 100 estimators for both models.
 - - -
 
 ### Submission
-
-* Create Jupyter notebooks for the homework and host the notebooks on GitHub.
-
-* Include a markdown that summarizes your homework and include this report in your GitHub repository.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
 
 - - -
 
