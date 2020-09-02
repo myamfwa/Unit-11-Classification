@@ -51,13 +51,9 @@ For each of the above:
 
 #### Conclusions
 
-* Which model had the best balanced accuracy score?
+The results received from from the models, it was unclear to determine which model performed the same. 
 
-
-
-* Which model had the best recall score?
->
-* Which model had the best geometric mean score?
+Results for balanced accuracy score, recall score, geometric mean score were nearly identifical. There is no clear distinct difference between the results.
 
 ### Ensemble Learning
 
@@ -79,13 +75,8 @@ Completed the following steps for each model:
 
 The balanaced random forest classifier and easy ensemble AdaBoost classifier provided results that were very similar with AdaBoost scoring marginally better. 
 
-* Which model had the best balanced accuracy score?
+Results for balanced accuracy score, recall score, geometric mean score were nearly identifical. There is no clear distinct difference between the results.
 
-* Which model had the best recall score?
-
-* Which model had the best geometric mean score?
-
-* What are the top three features?
 
 #### Top Features for Balanced Random Forest Classifier
 
